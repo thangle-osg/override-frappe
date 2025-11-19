@@ -7,7 +7,9 @@ app_license = "mit"
 
 # Apps
 # ------------------
-
+override_doctype_class = {
+	"CRM Deal": "crm_override.overrides.crm_deal.CustomCRMDeal"
+}  
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
